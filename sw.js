@@ -1,10 +1,11 @@
-const CACHE_NAME = 'atlas-sens-v2';
+const CACHE_NAME = 'atlas-sens-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.jpg',
-  './icon-512.jpg'
+  './icon-512.jpg',
+  './background-petals.jpg'
 ];
 
 self.addEventListener('install', (event) => {
